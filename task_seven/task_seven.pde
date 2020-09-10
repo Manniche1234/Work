@@ -1,15 +1,17 @@
-for(int input = 20; input >= 0; input = input -1)
+int input = 30;
+for(int i = input; i >= 0; --i)
 {
- if(input == 6)
- {
-   println("six");
- }else if (input == 10)
+  if (i == input/2)
  {
    println("HALF!");
  } 
+ else if(i == 6)
+ {
+   println("six");
+ }
  else
  {
-   println(input); 
+   println(i); 
  }
 }
 
