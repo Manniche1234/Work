@@ -6,14 +6,13 @@
 //  } 
 //}
 
-int n = -1;
+int n = 0;
 
-while ( n < 20)
+while ( n <= 20)
 {
-  n=n+1;
   if (n% 2 == 0)
   {
-    println(n);
-    
+    println(n);  
   }
+   n=n+1;
 }

@@ -20,9 +20,6 @@ void MethodOne()
    String output = "i is greater than "+max+"."; 
    println(output);
   }
-  
- 
-   
 }
 
 /* 
@@ -68,11 +65,7 @@ void MethodTwo()
      {
        println("It is Friday");
      }
-   }
- 
-  
-    
-    
+   } 
    //Print if it is weekend here:
    
    if (weekDay >=5)
