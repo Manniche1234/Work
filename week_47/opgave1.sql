@@ -1,0 +1,11 @@
+USE sakila;
+-- SELECT * FROM actor;
+-- SELECT * FROM actor where last_name = "Cage";
+-- SELECT * FROM actor WHERE NOT first_name in("zero", "nick");
+-- SELECT * FROM actor WHERE first_name in("NICK", "JOHNNY", "JAMES", "MORGAN", "WHOOPI");
+-- SELECT * FROM actor WHERE actor_id BETWEEN "50" AND "150";
+-- SELECT * FROM actor WHERE first_name like "c%";
+-- SELECT * FROM actor ORDER BY first_name;
+-- SELECT * FROM actor ORDER BY last_name desc;
+-- SELECT COUNT(*) FROM actor; 
+-- SELECT COUNT(DISTINCT first_name) FROM actor;
